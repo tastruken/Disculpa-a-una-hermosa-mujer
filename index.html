@@ -9,67 +9,7 @@
     
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'deep-red': '#8B0000',      // Rojo oscuro
-                        'rose-red': '#B22222',      // Rojo rosa
-                        'cream-white': '#FFF8DC',   // Blanco crema
-                        // Rojos utilizados en el degradado de fondo
-                        'velvet-red': '#9b0000',
-                        'classic-rose': '#C3272B',
-                        'deep-magenta': '#E91E63', 
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        display: ['Dancing Script', 'cursive'], 
-                        body: ['Open Sans', 'sans-serif'],
-                    },
-                    keyframes: {
-                        fadeInUp: {
-                            '0%': { opacity: '0', transform: 'translateY(20px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        },
-                        heartBeat: {
-                            '0%, 100%': { transform: 'scale(1)' },
-                            '50%': { transform: 'scale(1.1)' },
-                        },
-                        floatParticle: {
-                            '0%': { opacity: '0', transform: 'translateY(100vh) rotate(0deg)' },
-                            '50%': { opacity: '0.8' },
-                            '100%': { transform: 'translateY(-100vh) rotate(360deg)', opacity: '0' },
-                        },
-                        floatSmallParticle: { 
-                            '0%': { opacity: '0', transform: 'translateY(0) scale(0.5)' },
-                            '50%': { opacity: '0.3', transform: 'translateY(-50px) scale(0.8)' },
-                            '100%': { opacity: '0', transform: 'translateY(-100px) scale(1.2)' },
-                        },
-                        sparkle: {
-                            '0%': { opacity: '0', transform: 'scale(0)' },
-                            '50%': { opacity: '1', transform: 'scale(1.2)' },
-                            '100%': { opacity: '0', transform: 'scale(0.8)' },
-                        },
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
-                        }
-                    },
-                    animation: {
-                        fadeInUp: 'fadeInUp 1.5s ease-out forwards', 
-                        apologyEnter: 'fadeInUp 1.2s ease-out forwards', 
-                        heartBeat: 'heartBeat 1.5s infinite ease-in-out',
-                        sparkle: 'sparkle 1s ease-out forwards',
-                        fadeIn: 'fadeIn 1.5s ease-out forwards',
-                        pulseHeart: 'heartBeat 1.5s infinite ease-in-out',
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="p-4">
 
