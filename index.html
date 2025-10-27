@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor: ¿Me perdonas?</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-4">
+
+    <div class="heart-particle-container">
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+        <div class="heart-particle"></div>
+    </div>
+
+    <div id="main-content" class="relative z-10 w-full max-w-4xl p-0 flex flex-col justify-center items-center min-h-[90vh] text-center">
+
+        <p class="text-xl font-display text-cream-white/90 mb-4 animate-fadeInUp text-center"> 
+            De mi para tu
+        </p>
+        <div id="question-container" class="bg-white/20 backdrop-blur-md p-8 sm:p-12 rounded-3xl border border-white/70 animate-fadeInUp max-w-xl w-full" style="animation-delay: 0.2s;">
+            <p id="question-text" class="text-3xl sm:text-5xl font-display font-bold text-cream-white mb-8 text-shadow-lg">
+                Pia no te enojes yo te amo ¿Me perdonas wapa?
+            </p>
+
+            <div id="button-wrapper" class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <button id="yes-button" class="bg-rose-red hover:bg-deep-red text-cream-white text-2xl font-semibold py-4 px-10 rounded-full button-glow animate-pulseHeart hover:animate-none transition-all duration-500">
+                    Sí
+                </button>
+                <button id="no-button" class="bg-gray-600/70 hover:bg-gray-700 text-cream-white text-2xl font-semibold py-4 px-10 rounded-full button-glow transition-all duration-300">
+                    No
+                </button>
+            </div>
+        </div>
+
+        <div id="apology-card" class="hidden w-full max-w-2xl bg-white/10 backdrop-blur-md p-6 sm:p-10 rounded-3xl shadow-3xl text-center text-cream-white border border-white/50">
+
+            <div class="apology-heart-particle-container">
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl font-display font-extrabold text-cream-white mb-4 tracking-tight animate-fadeInUp" style="animation-delay: 0.1s;">
+                Pia me quiero disculpar contigo
+            </h1>
+            <p class="text-lg text-cream-white/90 mb-8 animate-fadeInUp" style="animation-delay: 0.2s;">
+                Entiendo que discutimos pero no quiero que estemos mal por esto
+            </p>
+
+            <div class="bg-white/10 p-4 sm:p-6 rounded-xl mb-6 shadow-inner text-cream-white animate-fadeInUp" style="animation-delay: 0.3s;">
+                <h2 class="text-2xl font-bold text-cream-white mb-3">
+                    Soy enojón pero te amo mucho
+                </h2>
+                <p class="text-base sm:text-lg whitespace-pre-wrap font-body">
+                    Las cosas quizás no están saliendo de la mejor manera cuando discutimos, pero quiero que sepas, aqui hay alguien que está dispuesto a todo por ti y no me cansaré nunca de demostrar lo que siento por ti. 
+                </p>
+            </div>
+
+            <p class="mt-8 text-xl sm:text-2xl font-display font-semibold text-cream-white animate-fadeInUp" style="animation-delay: 0.4s;">
+                Te amo más de lo que puedas llegar a pensar.
+            </p>
+            <p class="text-lg mt-2 text-cream-white/90 animate-fadeInUp" style="animation-delay: 0.5s;">
+                Con todo mi amor,
+            </p>
+            <p class="text-2xl sm:text-3xl font-display font-light text-cream-white italic animate-fadeInUp" style="animation-delay: 0.6s;">
+                Tu pololou
+            </p>
+        </div>
+
+        <div id="no-message" class="hidden w-full max-w-xl bg-white/20 backdrop-blur-md p-8 sm:p-12 rounded-3xl shadow-3xl border border-white/50 text-center text-cream-white animate-fadeIn">
+            
+            <div class="apology-heart-particle-container">
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+                <div class="apology-heart-particle"></div>
+            </div>
+            
+            <p class="text-3xl sm:text-4xl font-display font-bold mb-6">
+                todo mal, prueba de nuevo.
+            </p>
+            <p class="text-xl sm:text-2xl font-body">
+                Prueba che prueba
+            </p>
+            <p class="text-lg mt-6">Con cariño, [Tu Nombre]</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
